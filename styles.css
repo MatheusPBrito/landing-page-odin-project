@@ -1,0 +1,96 @@
+* {
+	color: white;
+}
+
+body{
+	background-color: black;
+}
+
+@font-face{
+	font-family: "Mortal Kombat 2";
+	src:
+	   url("mk2.ttf") format("ttf");
+}
+
+
+header{
+	background-color: black;
+	color:white;
+        display:flex;
+        justify-content: space-between;
+}
+
+.videocontainer {
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	object-fit: cover;
+	z-index: 0;
+}
+
+.banner{
+        z-index: 1;
+	position: relative;
+}
+
+.innerbanner{
+	border: 1 black solid;
+	border-radius: 20px;
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	font-size: 20px;
+	margin: 100px 150px;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content{
+	text-align: center;
+	background-color: purple;
+	border: 10px purple solid;
+	padding: 10px;
+	color: white;
+	font-family: "Mortal Kombat2","MortalKombat2";
+	
+}
+
+.contentLinks{
+	 display: flex;
+	 justify-content: space-around;
+ }
+
+ .content img {
+	 border: 5px white solid;
+	 border-radius: 20px;
+ }
+
+ .content img:hover{
+	 size: 120%;
+ }
+
+ .quote{
+	 border: 50px none none;
+	 color: white;
+ }
+
+ footer{
+	 border: 20px grey solid;
+	 text-align: center;
+	 padding: 10px;
+ }
+
+ #credits{
+	 border: 1px none none;
+	 text-align: center;
+ }
+ 
+ button{
+    color: black;
+ }

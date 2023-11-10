@@ -3,32 +3,48 @@
 	<head>
 		<title>Old school speedruns</title>
 		<link rel="icon" type="image/x-icon" href="img/icon.png">
+		<link rel="stylesheet" href="styles.css">
 	</head>
 
 	<body>
 		<header>
 			<img alt="website logo" src=img/sanic.png height= 50 width=50>
-			<a>about</a>
-			<a>FAQ</a>
-			<a>World Records</a>
+			<div class="navbuttons">
+				<a>about </a>
+				<a>FAQ </a>
+				<a>World Records </a>
+			</div>
 		</header>
                
-		<div class="banner">
-			<h1>Old Skull speedruns</h1>
-			<p>Welcome to the world of speedrunning!</p>
-			<img alt="Guy speedruns intensily" src=img/speedrun.gif>
+		<div class="videocontainer">
+			<video autoplay muted loop>
+				<source src="gameplay.webm" type video/webm>
+			</video>
+			
+			<div class="banner">
+				<div class="innerbanner">
+					<div class="bannerText">
+					<h1>Old Skull speedruns</h1>
+					<p>Welcome to the world of speedrunning!</p>
+					<a target=_blank href="https://www.youtube.com/watch?v=5vtijM0xZMc">gameplay by ZERO MASTER</a>
+					</div>
+					<img alt="Guy speedruns intensily" src=img/speedrun.gif>
+				</div>
+			</div>
 		</div>
 
 		<div class="content">
-			<h2>chosse your destiny!</h2>
+			<h2>CHOSSE YOUR DESTINY</h2>
+			<div class="contentLinks">
 			<a target=_blank href="https://www.youtube.com/watch?v=MvY8GEOCRdY&t=11"><img alt="Sonic 2" src=img/sonic2.gif height=200 width=200></a>
 			<a target=_blank href="https://www.youtube.com/watch?v=xMX0uQpDsYU"><img alt="Doom I" src=img/doom.gif height=200 width=200></a>
 			<a target=_blank href="https://www.youtube.com/watch?v=c7OwfwcG2oA&t=7"><img alt="Ultimate Mortal Kombat 3" src=img/umk3.gif height=200 width=200></a>
 			<a target=_blank href="https://www.youtube.com/watch?v=dNL8rdn00IU"><img alt="Super metroid SNES" src=img/metroid.gif height=200 width=200></a>
+			</div>
 		</div>
 
 		<div class="quote">
-			<p><q>No, I don't have a girlfriend, I have the Mario 1 record <strong></q>-Darbian, Holder of the SMB World Record</strong></p>
+			<p><q>No, I don't have a girlfriend, I have the Mario 1 record</q> <br><strong>-Darbian, Holder of the SMB World Record</strong></p>
 		</div>
 
 		<footer>
@@ -37,6 +53,7 @@
 				<p>It might be you! send us your video</p>
 				<button>upload video</button>
 		</footer>
+		<p id="credits">website code by Matheus P. Brito</p>
 	</body>
 </html>
 
